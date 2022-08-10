@@ -10,7 +10,7 @@ aumentar.addEventListener("click", ()=>{
 
 disminuir.addEventListener("click", ()=>{
     total.innerHTML = --contador;
-    if(contador < 1){
+    if(contador <= 0){
       contador = 0;
     }
 })
