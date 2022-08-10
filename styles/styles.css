@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(60, 46, 255);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contador{
+    width: 50%;
+    border: 1px solid rgba(183, 0, 0, 0.721);
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    background-color: rgb(161, 170, 77);
+}
+
+.contador .total{
+    padding: 50px;
+    background-color: black;
+    color: rgb(225, 95, 95);
+    font-size: 40px;
+}
+
+.contador .boton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contador .aumentar{
+    border: 1px solid rgb(20, 0, 132);
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    width: fit-content;
+    background-color: blueviolet;
+    margin: 0 auto;
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contador .disminuir{
+    border: 1px solid rgb(20, 0, 132);
+    border-radius: 5px;
+    padding: 50px;
+    padding-left: 68px;
+    text-align: center;
+    width: fit-content;
+    background-color: brown;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+@media (max-width: 720px){
+    body{
+        box-sizing: border-box;
+    }
+
+    .contador{
+        width: 95%;
+        border: 1px solid rgba(183, 0, 0, 0.721);
+        border-radius: 10px;
+        text-align: center;
+        height: 500px;
+        background-color: rgb(161, 170, 77);
+        box-sizing: border-box;
+    }
+
+    .contador .aumentar{
+        border: 1px solid rgb(20, 0, 132);
+        border-radius: 5px;
+        text-align: center;
+        padding: 50px;
+        width: fit-content;
+        background-color: blueviolet;
+        margin: 0 auto;
+        display: flex;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    
+    .contador .disminuir{
+        border: 1px solid rgb(20, 0, 132);
+        border-radius: 5px;
+        padding: 50px;
+        padding-left: 68px;
+        text-align: center;
+        width: fit-content;
+        background-color: brown;
+        margin: 0 auto;
+        cursor: pointer;
+        font-size: 15px;
+        
+    }
+}
