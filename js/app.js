@@ -9,7 +9,7 @@ aumentar.addEventListener("click", ()=>{
 })
 
 disminuir.addEventListener("click", ()=>{
-    total.innerHTML = --contador;
+    total.innerHTML = contador--;
     if(contador <= 0){
       contador = 0;
     }
