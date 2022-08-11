@@ -99,3 +99,46 @@ body{
         
     }
 }
+
+@media (max-width: 400px){
+    body{
+        box-sizing: border-box;
+    }
+
+    .contador{
+        width: 95%;
+        border: 1px solid rgba(183, 0, 0, 0.721);
+        border-radius: 10px;
+        text-align: center;
+        height: 500px;
+        background-color: rgb(161, 170, 77);
+        box-sizing: border-box;
+    }
+
+    .contador .aumentar{
+        border: 1px solid rgb(20, 0, 132);
+        border-radius: 5px;
+        text-align: center;
+        padding: 25px;
+        width: fit-content;
+        background-color: blueviolet;
+        margin: 0 auto;
+        display: flex;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    
+    .contador .disminuir{
+        border: 1px solid rgb(20, 0, 132);
+        border-radius: 5px;
+        padding: 25px;
+        padding-left: 25px;
+        text-align: center;
+        width: fit-content;
+        background-color: brown;
+        margin: 0 auto;
+        cursor: pointer;
+        font-size: 15px;
+        
+    }
+}
